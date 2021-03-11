@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+
+}
+body{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: fixed;
+	
+}
+.lgo{
+	height:200px;
+	width:180px;
+
+	
+	margin-left:30px;
+	background-image: url(lg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+	border:1px solid #bd2000;
+	border-radius:20px;
+	
+}
+.head{
+	height:150px;
+	width:auto;
+	padding-top:30px;
+
+
+
+
+	background-image: url(head.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 10px groove #8c0000;
+
+}
+
+.head h1{
+	font-size: 70px;
+	float :right;
+	margin-right: 15px;
+	font-family: 'Stick', sans-serif;
+	color:#fff;
+	text-shadow: 0 0 10px #bd2000, 0 0 40px #bd2000, 0 0 80px #bd2000;
+}
+
+	
+	
+
+
+}
+
+nav{
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+nav ul li {
+
+	height: 40px;
+	width:220px;
+	border:2px solid #bd2000;
+	margin-top:5px;
+	text-align: center;
+    list-style: none;
+    font-family: sans-serif;
+    padding-top:10px;
+    overflow: hidden;
+}
+
+nav ul li a{
+	color:#ddd;
+
+}
+
+nav ul li:hover{
+	color:#255784;
+	background:#bd2000;
+	box-shadow: 0 0 10px #bd2000, 0 0 40px #bd2000, 0 0 80px #bd2000;
+}
+
+
+
+
+.main{
+	display: flex;
+}
+
+
+
+.snav{
+	height:480px;
+	width:230px;
+	border-right:4px groove #bd2000;
+	margin-top:60px;
+}
+
+.col{
+	flex-basis: 80%;
+
+}
+
+.col h1{
+	font-size: 75px;
+	color:#fff;
+	font-family: 'Stick', sans-serif;
+}
+
+.card{
+	width: 200px;
+	height:200px;
+	display: inline-block;
+	border-radius: 25%;
+	padding: 15px 15px;
+	 box-sizing: border-box;
+	 cursor: pointer;
+	 margin: 20px 15px;
+	 margin-left: 20px;
+	 background-color:green;
+	 background-position: center center;
+	 background-size: cover;
+	 transition: transform 0.5s;
+	 background-image: url(lg.jpg);
+}
+
+.card1{
+	background-image: url(free.jpg);
+}
+
+.card2{
+	background-image: url(pubg.jpg);
+}
+
+.card3{
+	background-image: url(cod.jpg);
+}
+.card4{
+	background-image: url(lite.jpg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+
+
+
+
